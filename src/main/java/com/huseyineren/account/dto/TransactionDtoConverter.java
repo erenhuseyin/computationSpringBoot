@@ -11,6 +11,6 @@ public class TransactionDtoConverter {
         return new TransactionDto(from.getId(),
                                   from.getTransactionType(),
                                   from.getAmount(),
-                                  from.getTransactionDate())
+                                  from.getTransactionDate());
     }
 }
